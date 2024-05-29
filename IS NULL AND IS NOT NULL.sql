@@ -1,0 +1,1 @@
+select *from player where age IS  NULL  AND status IS NULL

@@ -1,0 +1,1 @@
+select*from student  limit 7  offset 6
