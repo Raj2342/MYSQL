@@ -1,0 +1,2 @@
+-- select * from student  where id  between 3 AND 7
+-- select * from student  where id  not  between 3 AND 7
