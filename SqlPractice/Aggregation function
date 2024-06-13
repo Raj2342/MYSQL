@@ -1,0 +1,18 @@
+# count function
+easy question:
+Q-Show how many patients have a birth_date with 2010 as the birth year.
+code:
+select count(patient_id) total_patient from patients  
+where year(birth_date)=2010
+
+Q-Show the total number of admissions
+select count(patient_id)  total_admiddion from admissions
+
+Q-Show the patient id and the total number of admissions for patient_id 579.
+SELECT   count(patient_id)   total_admission , patient_id  from admissions
+where patient_id = 579;
+
+Q- Show the total amount of male patients and the total amount of female patients in the patients table.
+Display the two results in the same row.
+
+select SUM(gender='M') male_count , SUM(gender='F') Female_count from patients 
